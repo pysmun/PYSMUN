@@ -1,0 +1,39 @@
+node_modules/
+.next/
+.release/
+out/
+.data/
+.env*
+!.env.example
+*.log
+*.zip
+.DS_Store
+
+# Local TLS keys — never publish private keys
+certificates/
+*.pem
+
+# Local secrets vault — never commit, never share
+.secrets/
+
+# Agent onboarding notes — kept local, not published to the public repo
+CLAUDE.md
+
+# Internal planning, personal and scratch files
+.todo/
+.logs/
+.img/
+.inspo/
+.agents/
+.playwright-mcp/
+SHARE-README.txt
+
+# Local dev tooling and share helpers (cloudflared binary, tunnel scripts) — not needed in the repo
+tools/
+*.bat
+
+# Build caches and stray screenshots
+*.tsbuildinfo
+council-mobile-after.png
+
+certificates

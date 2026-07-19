@@ -1,0 +1,2 @@
+import { ComingSoonApplication } from "@/components/coming-soon-application";
+export default function Page() { return <ComingSoonApplication eyebrow="Leadership team" title="Directorate" description="Help design, coordinate and deliver the PYSMUN experience from inside the organization." items={["Select the roles that best fit your skills and availability.", "Show relevant leadership, event or Model UN experience.", "Explain how you would contribute to a professional delegate experience.", "Shortlisted candidates may be invited to an interview."]} />; }

@@ -1,0 +1,36 @@
+{
+  "name": "pysmun",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fontsource-variable/dm-sans": "5.2.8",
+    "@fontsource/instrument-serif": "5.2.8",
+    "@supabase/supabase-js": "^2.110.7",
+    "cannon-es": "0.20.0",
+    "lucide-react": "latest",
+    "next": "16.2.10",
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
+    "three": "0.185.1",
+    "zod": "4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@types/three": "0.185.1",
+    "eslint": "latest",
+    "eslint-config-next": "16.2.10",
+    "typescript": "latest"
+  },
+  "overrides": {
+    "postcss": "8.5.19"
+  }
+}

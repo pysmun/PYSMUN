@@ -1,0 +1,7 @@
+Blank world map (de facto country borders), Robinson projection
+
+Author: Justinkunimune
+Source: https://commons.wikimedia.org/wiki/File:Blank_world_map_Robinson_projection.svg
+Geographic data: Natural Earth (https://www.naturalearthdata.com/)
+License: CC0 1.0 Universal Public Domain Dedication
+License URL: https://creativecommons.org/publicdomain/zero/1.0/

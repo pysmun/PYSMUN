@@ -1,0 +1,2 @@
+import { ComingSoonApplication } from "@/components/coming-soon-application";
+export default function Page() { return <ComingSoonApplication eyebrow="Conference floor" title="Delegate" description="Represent a position, negotiate global issues and collaborate toward resolutions." items={["Choose individual or institutional delegation registration.", "Share committee preferences and relevant experience.", "Receive country and committee allotment after review.", "Prepare with official study guides before conference day."]} />; }
