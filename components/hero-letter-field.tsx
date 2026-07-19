@@ -72,7 +72,13 @@ export function createLetterShape(THREE: typeof import("three"), letter: string)
   } else if (letter === "M") {
     const points: [number, number][] = [[-.12,0],[.58,0],[.58,.11],[.43,.19],[.43,1.62],[1.04,.03],[1.18,.03],[1.75,1.65],[1.75,.19],[1.57,.11],[1.57,0],[2.35,0],[2.35,.11],[2.17,.19],[2.17,1.81],[2.35,1.89],[2.35,2],[1.68,2],[1.15,.55],[.59,2],[-.12,2],[-.12,1.89],[.04,1.81],[.04,.19],[-.12,.11]];
     shape.moveTo(...points[0]); points.slice(1).forEach((point) => shape.lineTo(...point)); shape.closePath();
-  } else if (letter === "O") {
+  } else if (letter === "4") {
+    shape.moveTo(.98, 2); shape.lineTo(1.36, 2); shape.lineTo(1.36, 0); shape.lineTo(.98, 0);
+    shape.lineTo(.98, .56); shape.lineTo(-.08, .56); shape.lineTo(-.08, .84); shape.closePath();
+    const hole = new THREE.Path();
+    hole.moveTo(.6, .86); hole.lineTo(.96, .86); hole.lineTo(.96, 1.44); hole.closePath();
+    shape.holes.push(hole);
+  } else if (letter === "O" || letter === "0") {
     shape.moveTo(.72, 2.06);
     shape.bezierCurveTo(.18, 2.06, -.08, 1.62, -.08, 1);
     shape.bezierCurveTo(-.08, .38, .18, -.06, .72, -.06);
